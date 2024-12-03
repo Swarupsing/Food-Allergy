@@ -1,0 +1,298 @@
+body {
+    background-image: url("../images/tree_bark.png");
+    background-position: top;
+    background-size: cover;
+}
+
+/* CUSTOM FONTS */
+.header-1 {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 600;
+    letter-spacing: .1em;
+    line-height: 40px;
+    text-transform: uppercase;
+    color: #331832;
+}
+
+.content-1 {
+    font-family: 'Open Sans', Helvetica, Arial, sans-serif;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 600;
+    letter-spacing: normal;
+    line-height: 28px;
+    text-transform: none;
+    color: #331832;
+}
+
+.content-2 {
+    font-family: 'Open Sans', Helvetica, Arial, sans-serif;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    letter-spacing: normal;
+    line-height: 24px;
+    text-transform: none;
+    color: #331832;
+}
+
+
+/* NAVBAR */
+.navbar-head {
+    background-color: #331832;
+}
+
+.nav-link {
+    color: #F2F5F5;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 1.1em;
+}
+
+
+/* HEADER */
+.header-styling {
+    color: #202020;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 600;
+    letter-spacing: .05em;
+    font-size: 40px;
+    line-height: 80px;
+}
+
+
+/* BUTTONS */
+.button-div {
+    margin: 0 auto;
+    text-align: center;
+}
+
+.btn-custom {
+    margin: 0 auto;
+    width: 100%;
+    background-color: #F2BA18;
+    color: #F2F5F5;
+    margin-top: 20px;
+    font-weight: bold;
+}
+
+.btn-homepage {
+    background-color: #331832;
+    color: #F2F5F5;
+}
+
+.login-button {
+    /* position: relative; */
+    /* left: 50%; */
+    margin: 0 auto;
+    text-align: center;
+    background-color: #331832;
+    color: #F2F5F5;
+}
+
+.btn-submit {
+    background-color: #331832;
+    color: #F2F5F5;
+}
+
+/* CARD */
+.card {
+    border: 2px solid #3174AD;
+    margin: 1em;
+}
+
+.card-eaten {
+    font-family: 'Open Sans', sans-serif;
+}
+
+.card-header {
+    background-color: #3174AD;
+    color: #F2F5F5;
+}
+
+.card-body {
+    background-color: #eaf6ff;
+}
+
+.card-date {
+    font-size: 1.5em;
+    font-weight: 600;
+}
+
+
+/* CALENDAR HEADER */
+.rbc-toolbar-label {
+    font-size: 2.5em;
+    font-family: 'Open Sans', sans-serif;
+}
+
+/* FONTS */
+/* font-family: 'Montserrat', sans-serif;
+font-family: 'Open Sans', sans-serif; */
+
+
+/* LOGIN & LANDING & REGISTER */
+.landing-container {
+    background-color: #F2BA18;
+    width: 30em;
+    padding-bottom: 50px;
+    margin-top: 10em;
+}
+
+.landing-text {
+    font-family: 'Open Sans', sans-serif;
+    color: #F2F5F5;
+    font-size: 21px;
+    text-align: center;
+    margin: 0 auto;
+    padding: 20px 40px 20px 40px;
+}
+
+.login-form {
+    width: 400px;
+}
+
+.login-header {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 50px;
+    font-style: normal;
+    font-weight: 800;
+    letter-spacing: .11em;
+    line-height: 100px;
+    text-transform: uppercase;
+    color: #202020;
+}
+
+.border-secondary {
+    border: 2px solid #868e96;
+}
+
+.register-form {
+    padding: 3em;
+    /* border: 2px solid #3174AD;
+    background-color: #eaf6ff; */
+}
+
+a:hover {
+    /* font-size: 1.11em; */
+    font-weight: bold;
+    color: #F2BA18;
+}
+
+a:active {
+    background-color: #cccccc;
+    color: #F2F5F5;
+    border: 1px solid #cccccc;
+    border-radius: 5px;
+}
+
+/* WARNING */
+.warning-styling{
+    background-color: #F4C642;
+    color: rgb(139, 105, 1);
+    font-family: 'Open Sans', sans-serif;
+    font-size: 1em;
+    padding: .5em .5em;
+}
+
+.main-container {
+    background-color: #eaf6ff;
+    height: 100%;
+    width: 100%;
+}
+
+/* Media Queries */
+/* // Extra small devices (portrait phones, less than 576px) */
+@media (max-width: 575.98px) {
+    .landing-container {
+        background-color: #F2BA18;
+        width: 22em;
+        padding-bottom: 50px;
+        margin-top: 10em;
+    }
+
+    .header-1 {
+        font-family: 'Montserrat', sans-serif;
+        font-size: 30px;
+        font-style: normal;
+        font-weight: 600;
+        letter-spacing: .1em;
+        line-height: 40px;
+        text-transform: uppercase;
+        color: #331832;
+    }
+}
+
+/* // Small devices (landscape phones, 576px and up) */
+@media (min-width: 576px) { 
+    .landing-container {
+        background-color: #F2BA18;
+        width: 25em;
+        padding-bottom: 50px;
+        margin-top: 10em;
+    }
+
+    .header-1 {
+        font-family: 'Montserrat', sans-serif;
+        font-size: 30px;
+        font-style: normal;
+        font-weight: 600;
+        letter-spacing: .1em;
+        line-height: 40px;
+        text-transform: uppercase;
+        color: #331832;
+    }
+}
+
+/* // Medium devices (tablets, 768px and up) */
+@media (min-width: 768px) {
+    .landing-container {
+        background-color: #F2BA18;
+        width: 30em;
+        padding-bottom: 50px;
+        margin-top: 10em;
+    }
+}
+
+/* // Large devices (desktops, 992px and up) */
+@media (min-width: 992px) {
+    .landing-container {
+        background-color: #F2BA18;
+        width: 30em;
+        padding-bottom: 50px;
+        margin-top: 10em;
+    }
+    
+    .header-1 {
+        font-family: 'Montserrat', sans-serif;
+        font-size: 40px;
+        font-style: normal;
+        font-weight: 600;
+        letter-spacing: .1em;
+        line-height: 40px;
+        text-transform: uppercase;
+        color: #331832;
+    }
+}
+
+/* // Extra large devices (large desktops, 1200px and up) */
+@media (min-width: 1200px) {
+    .landing-container {
+        background-color: #F2BA18;
+        width: 30em;
+        padding-bottom: 50px;
+        margin-top: 10em;
+    }
+
+    .header-1 {
+        font-family: 'Montserrat', sans-serif;
+        font-size: 40px;
+        font-style: normal;
+        font-weight: 600;
+        letter-spacing: .1em;
+        line-height: 40px;
+        text-transform: uppercase;
+        color: #331832;
+    }
+}

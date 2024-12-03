@@ -1,0 +1,99 @@
+form {
+   margin-top: 40px;
+   padding: 20px 30px 30px 20px;
+   /* border: 2px solid #3174AD;
+   background-color: #eaf6ff; */
+   border-radius: 5px;
+}
+
+.form-group {
+   width: 100%;
+   flex-wrap: wrap;
+   text-align: left;
+}
+
+.form-label {
+   margin: 0 auto;
+}
+
+/* TextAreas and Inputs */
+.name-lines {
+   display: flex;
+   flex-flow: row wrap;
+   align-items: center;
+}
+
+.input-label,
+.form-input,
+.form-control,
+.notes-textarea {
+   margin: 0 auto;
+   padding: 0 auto;
+}
+
+
+.form-label {
+   font-size: 19px;
+   color: #34495E;
+}
+
+/* Radio Buttons */
+.reaction-title {
+   margin: 0 auto;
+   width: 100%;
+   float: left;
+   color: #203B39;
+}
+
+/* .radio-Q-label {
+   margin: 0 auto;
+   width: 100%;
+   float: left;
+   color: #203B39;
+} */
+
+.form-check-5 {
+   width: 90%;
+   display: inline-flex;
+   justify-content: space-between;
+   flex-wrap: wrap;
+   margin: 0px 20px;
+   padding-left: 5px;
+}
+
+.form-check-2 {
+   width: 50%;
+   display: inline-flex;
+   justify-content: space-between;
+   flex-wrap: wrap;
+   margin-left: 20px;
+}
+
+/* Checkboxes */
+.form-check {
+   width: 100%;
+   display: inline-flex;
+   justify-content: space-between;
+   flex-wrap: wrap;
+   margin-left: 20px;
+   padding-left: 5px;
+}
+
+.form-checkbox-label {
+   width: 50%;
+}
+
+.checkbox-Q-label {
+   margin: 0 auto;
+   width: 100%;
+   float: left;
+}
+
+.checkbox-container {
+   display: inline-flex;
+   justify-content: space-between;
+   width: 100%;
+   float: left;
+   flex-wrap: wrap;
+   margin: 0 auto;
+}
