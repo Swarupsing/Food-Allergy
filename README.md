@@ -1,10 +1,9 @@
 ![Allergenius: Allergic Reaction Logging App](client/src/assets/images/allergenius_logo_gold.png) 
 
 ## Contributors
-- [Erin Clancy](https://github.com/noplanetnoparty) 
-- [Kayla Himmelberger](https://github.com/kaylahimmel)
-- [Sarah Lopriore](https://github.com/sarahlopriore)
-- [Nicholette Sams](https://github.com/nicholettesams)  
+- [Swarupsing Patil](https://github.com/Swarupsing)
+- [Tanay Deshpande](https://github.com/Tanay4302) 
+
 
 ## Intro
 [Allergenius](https://allergenius.herokuapp.com) is an app designed to help people experiencing allergic reaction to track their symptoms as well as the food they have consumed.  Users can then share this information with a healthcare professional in order to facilitate a diagnosis of what food(s) they are allergic to.  
@@ -15,10 +14,11 @@ At the begining of our design process, we decided which features would be part o
 ## Individual Contributions
 Although we all helped in all areas of the website, there were main focuses that each team member had:
 
-- Erin: User authentication, Heroku setup, debugging, and styling.  
-- Kayla: React components and forms, documentation, debugging, and styling.  
-- Sarah: React pages, implementing the reaction calendar, Heroku setup, and debugging. 
-- Niki: backend MySQL schema, routes, documentation, debugging, and implementing export to CSV functionality.  
+- Swarupsing Patil: User authentication, Heroku setup, debugging, and styling.
+- Swarupsing Patil: backend MySQL schema, routes, documentation, debugging, and implementing export to CSV functionality. 
+- Tanay Deshpade : React components and forms, documentation, debugging, and styling.  
+- Tanay Deshpande: React pages, implementing the reaction calendar, Heroku setup, and debugging. 
+ 
   
 ## Technologies Used
 - [HTML5](developer.mozilla.org/en-US/docs/Web/Guide/HTML/HTML5)
